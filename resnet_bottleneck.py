@@ -72,6 +72,8 @@ class Resnet_bottleneck(nn.Module):
             ns_layer = [3, 8, 36, 3]
         elif n==101:
             ns_layer = [3, 4, 23, 3]
+        elif n == 50:
+            ns_layer = [3, 4, 6, 3]
 
 
         # Conv 1
